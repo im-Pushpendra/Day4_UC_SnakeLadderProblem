@@ -31,6 +31,11 @@ public class SnakeLadder {
 			else
 			System.out.println("Snake bytes & Player moves Behind by number of psition: "+"-"+SingleplayerRolls);
 		}
+		if(Singleplayer>100) {
+			Singleplayer -= SingleplayerRolls;
+			System.out.println();
+			System.out.println(Singleplayer);
+		}
 		}
 		System.out.println();
 		System.out.println("Player Reaches position: "+Singleplayer);
